@@ -1,5 +1,5 @@
 import React from "react";
-import darksky from "../../data/darksky.json";
+import darksky from "../data/darksky.json";
 
 function ResultDarkSky(props) {
   const dailyWeatherData = [];
@@ -15,9 +15,9 @@ function ResultDarkSky(props) {
     <React.Fragment>
       <h3>Results from the Dark Sky API</h3>
       <ul className="forecast-list">
-        {dailyWeatherData.map(innerArr => {
+        {dailyWeatherData.map((innerArr,i) => {
           return (
-            <li>
+            <li key={`forecast${i}`}>
               The forecast for {innerArr[0]} is: {innerArr[1]}
             </li>
           );
