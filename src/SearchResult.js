@@ -7,6 +7,7 @@ import ResultMovies from "./modules/ResultMovies.js";
 import ResultHiking from "./modules/ResultHiking.js";
 
 function SearchResult(props) {
+
   return (
     <React.Fragment>
       <ResultDarkSky />
