@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.placeholder-map {
+  width: 600px;
+  height: 300px;
+  background-color: aqua;
+}

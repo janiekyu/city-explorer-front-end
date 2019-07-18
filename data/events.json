@@ -1,0 +1,14 @@
+[
+  {
+    "link": "https://www.eventbrite.com/seattlejshackers/events/253823797/",
+    "name": "SeattleJS Hackers",
+    "event_date": "Wed Apr 23 2014",
+    "summary": "Come and meet other JS hackers at the Code Fellows campus!"
+  },
+  {
+    "link": "https://www.eventbrite.com/Angular-Seattle/events/253595182/",
+    "name": "Angular Seattle",
+    "event_date": "Tue May 09 2017",
+    "summary": "Want to better understand the hottest TypeScript framework?"
+  }
+]
