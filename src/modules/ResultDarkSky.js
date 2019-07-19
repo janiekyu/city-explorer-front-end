@@ -12,7 +12,7 @@ function ResultDarkSky(props) {
   }
 
   return (
-    <React.Fragment>
+    <section>
       <h3>Results from the Dark Sky API</h3>
       <ul className="forecast-list">
         {dailyWeatherData.map((innerArr,i) => {
@@ -23,7 +23,7 @@ function ResultDarkSky(props) {
           );
         })}
       </ul>
-    </React.Fragment>
+    </section>
   );
 }
 

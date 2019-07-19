@@ -3,7 +3,7 @@ import events from "../data/events.json";
 
 function ResultEvents(props) {
   return (
-    <React.Fragment>
+    <section>
       <h3>Results from the Eventbrite</h3>
       <p>
         <a href="{events[0].link}">{events[0].name}</a>
@@ -16,7 +16,7 @@ function ResultEvents(props) {
       </p>
       <p>{events[1].event_date}</p>
       <p>{events[1].summary}</p>
-    </React.Fragment>
+    </section>
   );
 }
 

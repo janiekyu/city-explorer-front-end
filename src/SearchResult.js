@@ -9,13 +9,13 @@ import ResultHiking from "./modules/ResultHiking.js";
 function SearchResult(props) {
 
   return (
-    <React.Fragment>
+    <div className="column-container">
       <ResultDarkSky />
       <ResultYelp />
       <ResultEvents />
       <ResultMovies />
       <ResultHiking />
-    </React.Fragment>
+    </div>
   );
 }
 
