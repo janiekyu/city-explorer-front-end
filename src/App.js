@@ -1,5 +1,4 @@
 import React from "react";
-import superagent from "superagent";
 
 import Header from "./Header.js";
 import SearchForm from "./SearchForm.js";
@@ -12,10 +11,9 @@ class App extends React.Component {
     super(props);
     this.state = {
       loc: geo.results[0],
-
-      formatted_address: 'Test', 
-      lat: 12,
-      lng: 23
+      formatted_address: geo.results[0].formatted_address, 
+      lat: geo.results[0].geometry.location.lat,
+      lng: geo.results[0].geometry.location.lng
     };
   }
 
